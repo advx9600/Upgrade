@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dafeng.upgrade.fragment.widiget.CheckableItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkable_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageButton
+        android:id="@android:id/button1"
+        android:layout_width="40.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/text1"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:duplicateParentState="true"
+        android:focusable="false"
+        android:src="@drawable/rice_btn_check" />
+
+    <TextView
+        android:id="@+id/img_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/img_cur_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dip"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/img_last_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dip"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/btn_install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600dip" />
+
+</com.dafeng.upgrade.fragment.widiget.CheckableItemLayout>
